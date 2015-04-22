@@ -90,5 +90,10 @@ LC_NUMERIC="es_ES.UTF-8"
 LC_TIME="es_ES.UTF-8"
 LC_ALL="es_ES.UTF-8"
 
+alias gs='git status'
+alias ga='git add'
+alias gcm='git commit -m'
+alias gls='git ls-files'
+
 if [ "$TMUX" = "" ]; then tmux; fi
 
